@@ -8,4 +8,5 @@
     display: inline-block;
     padding-right: 15px;
     line-height: 1;
+    text-transform: capitalize;
 }

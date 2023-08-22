@@ -7,12 +7,14 @@ export default function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
-        <img src={logo} className="App-logo img-fluid" alt="logo" />
+       <h1> What are you wondering? </h1>
       </header>
       <main>
         <Dictionary defaultWord="flower"/>
       </main>
-      <footer className="App-footer">Coded by Ruby Smith</footer>
+      <footer className="App-footer">
+        Coded by Ruby Smith and <a href="https://github.com/Roobsk91/plus-week1" target="_blank" rel="noreferrer">Open-Sourced</a>
+      </footer>
       </div>
      </div>
   );
