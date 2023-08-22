@@ -13,7 +13,7 @@ export default function App() {
         <Dictionary defaultWord="flower"/>
       </main>
       <footer className="App-footer">
-        Coded by Ruby Smith and <a href="https://github.com/Roobsk91/plus-week1" target="_blank" rel="noreferrer">Open-Sourced</a>
+        Coded by Ruby Smith and Open-Sourced
       </footer>
       </div>
      </div>
