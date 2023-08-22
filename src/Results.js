@@ -4,28 +4,29 @@ import Phonetic from "./Phonetic";
 import "./Results.css";
 
 export default function Results(props) {
-if (props.results) {
-    return <div className="Results">
+  if (props.results) {
+    return (
+      <div className="Results">
         <section>
-        <h2>{props.results.word}</h2>
-        {props.results.phonetics.map(function 
-        (phonetic, index) {
+          <h2>{props.results.word}</h2>
+          {props.results.phonetics.map(function (phonetic, index) {
             return (
-                <div key={index}>
-                    <Phonetic phonetic={phonetic} />
-                </div>
+              <div key={index}>
+                <Phonetic phonetic={phonetic} />
+              </div>
             );
-        })}
+          })}
         </section>
-        {props.results.meanings.map(function(meaning, index) {
-            return (
+        {props.results.meanings.map(function (meaning, index) {
+          return (
             <section key={index}>
-                <Meaning meaning={meaning} />
+              <Meaning meaning={meaning} />
             </section>
-            );
+          );
         })}
-    </div>
-} else {
+      </div>
+    );
+  } else {
     return null;
-}
+  }
 }
