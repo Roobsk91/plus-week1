@@ -45,7 +45,7 @@ if (loaded) {
     return (
       <div className="Dictionary">
         <section>
-          <h1>Dictionary</h1>
+          <h2>Dictionary</h2>
           <form onSubmit={handleSubmit}>
             <input
               type="search"

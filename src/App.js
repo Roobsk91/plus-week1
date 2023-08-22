@@ -6,9 +6,9 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-      <header className="App-header">
-       <h1> What are you wondering? </h1>
-      </header>
+        <header className="App-header">
+        <h1> What would you like to look up? </h1>
+        </header>
       <main>
         <Dictionary defaultWord="flower"/>
       </main>
